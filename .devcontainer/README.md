@@ -16,12 +16,12 @@ The docker setup makes the environment more portable and easy to install and man
 4. Wait until the container is built (it takes longer the first time) and the project is reopen in the container;
 5. In the exercises, instead of launching the lab, follow the exercise instructions.
 
-## Caveats ##
+### Caveats ###
 - Not fully tested: problems are solved while using the environment; feel free to make pull requests or make changes;
 - No PowerShell: although it can be added, I wanted to to keep the Docker image as small as possible and so, left it out. This means that CMD scripts won't run (I converted them to *nix shell scripts);
 - Python instead of Miniconda: Azure CLI is not available as a distribution package for the ARM architecture (really,Microsoft? Making it hard for Raspberry Pi and macOS users...) and I couldn't use the install script provided by Microsoft with Miniconda. Hadn't have any problems, so far, in regard to Python usage.
 
-## Acknowledgements ##
+# Acknowledgements #
 - Microsoft for the AI-102 course and the lab environment
-
+- original dockerfile - https://codeberg.org/mingot/ms-ai-102/src/branch/main/Dockerfile
 
