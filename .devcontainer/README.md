@@ -21,7 +21,7 @@ The docker setup makes the environment more portable and easy to install and man
 - No PowerShell: although it can be added, I wanted to to keep the Docker image as small as possible and so, left it out. This means that CMD scripts won't run (I converted them to *nix shell scripts);
 - Python instead of Miniconda: Azure CLI is not available as a distribution package for the ARM architecture (really,Microsoft? Making it hard for Raspberry Pi and macOS users...) and I couldn't use the install script provided by Microsoft with Miniconda. Hadn't have any problems, so far, in regard to Python usage.
 
-# Acknowledgements #
-- Microsoft for the AI-102 course and the lab environment
+### Acknowledgements ###
+- Microsoft for the AI-102 course and the lab environment - https://github.com/MicrosoftLearning/AI-102-AIEngineer | https://microsoftlearning.github.io/AI-102-AIEngineer/
 - original dockerfile - https://codeberg.org/mingot/ms-ai-102/src/branch/main/Dockerfile
 
